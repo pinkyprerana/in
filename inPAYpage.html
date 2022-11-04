@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>www.in/pay.com</title>
+<style>
+body {margin:0;}
+
+   h1{
+    
+font-family: 'Rochester';
+font-style: normal;
+color: #000000;
+   }
+
+
+ 
+
+div {border:1px solid white; overflow:         hidden;}
+
+
+#donate
+{
+    position: absolute;
+width: 450px;
+height: 700px;
+left: 500px;
+top: 50px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+</style>
+</head>
+<body link="white" vlink="blue" alink="white" >
+
+
+<div id="donate">
+    <form action="inPAYpage.php" method="POST" >
+    <center><caption><h1>Donate/Help</h1></caption>
+        <br>
+        <Tr>
+        <td ALIGN="CENTER">
+            <img src="img/PPphpnepayQR.PNG" height="200" width="180" style="padding:0px;margin-top:0px;background-color:white;">
+            <p>OR </p>
+            <div class="card-details">
+                <p>Pay using Credit or Debit card</p>
+          
+                <div class="card-number">
+                  <label> Card Number </label>
+                  <input type="number" aria-setsize="16" class="card-number-field" placeholder="###-###-###" required/>
+                </div>
+                <br />
+                <div class="date-number">
+                  <label> Expiry Date </label>
+                  <input type="date" aria-setsize="6" class="date-number-field" placeholder="DD-MM-YY" required/>
+                </div>
+          
+                <div class="cvv-number">
+                  <label> CVV number </label>
+                  <input type="number" aria-setsize="3" class="cvv-number-field" placeholder="xxx" required/>
+                </div>
+                <div class="nameholder-number">
+                  <label> Card Holder name </label>
+                  <input type="text" aria-setsize="25" class="card-name-field" placeholder="Enter your Name" required/>
+                </div>
+                <button type="submit" style="background: #B565A7;border-radius: 38px;" class="submit-now-btn">SEND! </button>
+              </div>
+            </div></Tr>
+    </center>
+    </form>
+</div>
+</body>
+</html>
